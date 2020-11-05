@@ -5,9 +5,11 @@ Description: This is our index page.
 
 Home page
 ==========================
+Mitt namn är Jonatan Pettersson. Född och uppvuxen i Vislanda, strax utanför Växjö. Växte upp med mycket sport, framförallt fotboll och innebandy. Där ligger det mesta av mitt intresse. Ett mål jag har är att utbilda mig och jobba med det i framtiden.
 
-The source for this page is in `content/index.md`.
+Tycker också om programmering och tycker det är intressant och roligt. Jag gick Teknikprogrammet på gymnasiet och det var där jag lärde mig programmmera på väldigt grundnivå. 
 
-This is a sample home page written in markdown with some frontmatter defined.
-
-The pages make up a Anax site for demonstration purpose, it is something to start from.
+Förutom sport och att sitta framför dator så är det inte mycket som slår en långpromenad med hunden en torsdagsmorgon på höstkanten eller en fredagskväll med poker. Tycker även om att läsa statistik och onödig fakta.
+<br>
+<br>
+<img class="meImg" src="assets/img/me.jpeg">

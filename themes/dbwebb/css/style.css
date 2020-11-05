@@ -569,3 +569,8 @@ input::-moz-focus-inner, button::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
+
+.meImg {
+    height: 324px;
+    width: 250px;
+}

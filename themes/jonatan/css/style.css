@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin: auto;
+}
+
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    background-color:#75160b;
+    color: rgb(209, 209, 209);
+    padding: 0 2em;
+}
+
+.site-header a, .site-header a:visited {
+    color: rgb(209, 209, 209);
+    
+    
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+    /*width: 66%;
+    margin: auto;*/
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background: #75160b;
+    color: rgb(209, 209, 209);
+    padding: 2em;
+    
+}
+
+.site-footer a {
+    color: #f0f0f0;
+}
+
+.meImg {
+    height: 300px;
+    width: 250px;
+}
+
+
+.footer .social {
+    float: right;
+    font-size: 3rem;
+    margin-right: 20%;
+}
+
+.footer .container .footer-text {
+    font-size: 2em;
+    margin-left: 20%;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 8%;
+}
+.logoImg {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 8%;
+}
