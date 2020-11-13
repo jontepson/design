@@ -1,0 +1,45 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&family=Roboto&display=swap');
+
+@import 'old';
+
+
+
+p {
+    font-family: 'Lora', 'Open Sans', 'Roboto', 'sans-serif';
+    margin: 6px;
+    line-height: 1.4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', 'Lora', 'Open Sans',  'sans-serif';
+}
+
+.footer .instagram {
+    float: right;
+    font-size: 3rem;
+    margin-right: 3%;
+}
+
+.footer .school {
+    float: right;
+    font-size: 3rem;
+    margin-right: 3%;
+}
+
+.footer .football {
+    float: right;
+    font-size: 3rem;
+    margin-right: 3%;
+}
