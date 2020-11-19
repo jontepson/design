@@ -7,8 +7,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&family=Roboto&display=swap');
 
+@import 'kmom';
+@import 'report';
 @import 'old';
-
 
 
 p {
@@ -42,4 +43,10 @@ h6 {
     float: right;
     font-size: 3rem;
     margin-right: 3%;
+}
+
+@media (max-width: 600px) {
+    html {
+        background-repeat: repeat;
+    }
 }

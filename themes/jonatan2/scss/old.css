@@ -6,6 +6,9 @@
 
 html {
     background-image: url('https://images3.alphacoders.com/106/1069102.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 html, body {
