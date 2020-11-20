@@ -31,7 +31,7 @@
     </a>
     <div class="logo" aria-hidden="true">
                     <a href="{{ "index"|link }}">
-                        <img class="logoimg" src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                        <img class="logoImg" src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                     </a>
     </div>
     <div id="nav" role="navigation" tabindex="-1">
@@ -44,12 +44,26 @@
         </ul>
     </div>
 </header>
-    <div class="main" id="main" role="main">
+<div class="kmomflex">
+<div>
+     <div class="leftmenu">
+
+    <li><a href="kmom01">KMOM 01</a></li>
+    <li><a href="kmom02">KMOM 02</a></li>
+    <li><a href="kmom03">KMOM 03</a></li>
+    <li><a href="kmom04">KMOM 04</a></li>
+    <li><a href="kmom05">KMOM 05</a></li>
+    <li><a href="kmom06">KMOM 06</a></li>
+    <li><a href="kmom10">KMOM 10</a></li>
+
+</div>
+    <div class="mainkmom" id="main" role="main">
         <div class="container">
             {{ content }}
         </div>
     </div>
-    
+</div>
+</div>
     <footer class="site-footer">
          <div class="footer">
         <div class="container">
