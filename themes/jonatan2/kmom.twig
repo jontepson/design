@@ -19,8 +19,11 @@
 
     
    
+     {% if config.session.theme == "dark" %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/style-light.css" type="text/css" />
+    {% else %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
+    {% endif %}
 
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
@@ -31,7 +34,7 @@
     </a>
     <div class="logo" aria-hidden="true">
                     <a href="{{ "index"|link }}">
-                        <img class="logoImg" src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                        <img class="logoimg" src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                     </a>
     </div>
     <div id="nav" role="navigation" tabindex="-1">

@@ -3,14 +3,14 @@
 
 .site-header {
     flex: 0 0 auto;
-    background-color: #000a52;
+    background-color: $backgroundheaderfooter;
     color: rgb(209, 209, 209);
     padding: 0 2em;
 }
 
 .site-header a,
 .site-header a:visited {
-    color: rgb(209, 209, 209);
+    color: $fontcolor;
 }
 
 
@@ -18,13 +18,13 @@
 
 .site-footer {
     flex: 0 0 auto;
-    background: #000a52;
+    background: $backgroundheaderfooter;
     color: rgb(209, 209, 209);
     padding: 2em;
 }
 
 .site-footer a {
-    color: #f0f0f0;
+    color: $fontcolor;
 }
 
 
@@ -36,7 +36,7 @@
 }
 
 .footer .container .footer-text {
-    font-size: 2em;
+    font-size: 1em;
     margin-left: 20%;
 }
 

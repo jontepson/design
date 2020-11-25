@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +6,7 @@
 }
 
 html {
-    background-image: url('https://images3.alphacoders.com/106/1069102.jpg');
+    background-image: $backgroundimage;
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -13,7 +14,7 @@ html {
 
 html,
 body {
-    background-color: #f5f5f5;
+    background-color: $bodycolor;
     height: fit-content;
 }
 
@@ -36,6 +37,7 @@ p {
     font-family: 'Lora', 'Open Sans', 'Roboto', 'sans-serif';
     margin: 6px;
     line-height: 1.4;
+    color: $fontcolor;
 }
 
 h1,
@@ -45,6 +47,7 @@ h4,
 h5,
 h6 {
     font-family: 'Roboto', 'Lora', 'Open Sans',  'sans-serif';
+    color: $fontcolor;
 }
 
 @media (max-width: 600px) {

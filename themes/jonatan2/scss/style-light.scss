@@ -7,8 +7,10 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Open+Sans&family=Roboto&display=swap');
 
+@import 'variables-light';
 @import 'kmom';
 @import 'report';
 @import 'headerfooter';
 @import 'general';
 @import 'pictures';
+@import 'nav';
