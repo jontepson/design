@@ -3,9 +3,10 @@
 
 .site-header {
     flex: 0 0 auto;
-    background-color: $backgroundheaderfooter;
     color: rgb(209, 209, 209);
     padding: 0 2em;
+    background: $background;
+    background: $backgroundgradient;
 }
 
 .site-header a,
@@ -13,12 +14,18 @@
     color: $fontcolor;
 }
 
+.site-header li:hover {
+    text-decoration: underline;
+    text-decoration-color: $fontcolor;
+}
+
 
 /* Footer */
 
 .site-footer {
     flex: 0 0 auto;
-    background: $backgroundheaderfooter;
+    background: $background;
+    background: $backgroundgradient;
     color: rgb(209, 209, 209);
     padding: 2em;
 }

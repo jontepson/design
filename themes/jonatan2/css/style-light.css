@@ -6540,7 +6540,7 @@ readers do not read off random characters that represent icons */
   position: relative;
   top: 50%;
   left: 20%;
-  color: #535353;
+  color: #e3b36b;
   text-decoration: none;
 }
 
@@ -6576,9 +6576,10 @@ readers do not read off random characters that represent icons */
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #FAD681;
   color: #d1d1d1;
   padding: 0 2em;
+  background: #fad681;
+  background: linear-gradient(9deg, #fad681 0%, #fdf077 62%, #e3b36b 100%);
 }
 
 .site-header a,
@@ -6586,10 +6587,16 @@ readers do not read off random characters that represent icons */
   color: #000;
 }
 
+.site-header li:hover {
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background: #FAD681;
+  background: #fad681;
+  background: linear-gradient(9deg, #fad681 0%, #fdf077 62%, #e3b36b 100%);
   color: #d1d1d1;
   padding: 2em;
 }
@@ -6686,7 +6693,7 @@ h6 {
 .meimg {
   height: 300px;
   width: 250px;
-  border: 2px solid #6725ad;
+  border: 2px solid #54228a;
   filter: grayscale(0%);
 }
 
@@ -6703,94 +6710,4 @@ h6 {
   float: left;
   margin-left: 8%;
   filter: grayscale(0%);
-}
-
-.hidden {
-  display: none !important;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0 none;
-}
-
-.slide {
-  overflow-y: hidden !important;
-  -webkit-transition: height 0.5s ease-in !important;
-  transition: height 0.5s ease-in !important;
-}
-
-#nav {
-  padding: 3em 0;
-  text-align: right;
-}
-
-#nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#nav ul li {
-  display: inline-block;
-  margin-left: 1em;
-  padding: 0;
-  font-weight: bold;
-}
-
-#nav a:hover, #nav-toggle:hover {
-  text-decoration: none;
-}
-
-#nav-toggle {
-  display: none;
-}
-
-#nav a {
-  text-decoration: none;
-  font-size: larger;
-}
-
-/* Small devices */
-@media (max-width: 767px) {
-  #nav {
-    clear: both;
-    padding: 0;
-  }
-
-  #nav ul {
-    padding-bottom: 1em;
-  }
-
-  #nav ul li {
-    display: block;
-    margin-left: 0;
-    text-align: center;
-  }
-
-  #nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-
-  .js #nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-
-  .js #nav-toggle > * {
-    vertical-align: middle;
-  }
 }

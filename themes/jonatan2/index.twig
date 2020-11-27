@@ -17,10 +17,12 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-     {% if config.session.theme == "dark" %}
+    {% if config.session.theme == "dark" %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style-light.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
     {% else %}
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
     {% endif %}
    
 
@@ -53,7 +55,7 @@
     </div>
     
     <footer class="site-footer">
-         <div class="footer">
+        <div class="footer">
         <div class="container">
             <div class="social">
                 <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
