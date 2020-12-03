@@ -6641,7 +6641,7 @@ readers do not read off random characters that represent icons */
 }
 
 html {
-  background-image: url("https://wallpaperaccess.com/full/428699.jpg");
+  background-image: url("../../../assets/img/lightbackground.jpg");
   background-attachment: fixed;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -6710,4 +6710,24 @@ h6 {
   float: left;
   margin-left: 8%;
   filter: grayscale(0%);
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em 1em;
+  padding: 1em;
+  margin: auto;
+}
+
+@media (max-width: 992px) {
+  .gallery {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
