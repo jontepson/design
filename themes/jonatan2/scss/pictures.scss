@@ -38,13 +38,12 @@
     height: 100%;
 }
 
-@media {
-    @media (max-width: 767px) {
-        .embed-container iframe,
-        .embed-container object,
-        .embed-container embed {
-            width: auto;
-            height: auto;
-        }
+
+@media (max-width: 767px) {
+    .embed-container iframe,
+    .embed-container object,
+    .embed-container embed {
+        width: auto;
+        height: auto;
     }
 }
