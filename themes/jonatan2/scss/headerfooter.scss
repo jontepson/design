@@ -64,3 +64,33 @@
     font-size: 3rem;
     margin-right: 3%;
 }
+
+@media (max-width: 600px) {
+    .footer-text {
+        display: none;
+    }
+
+    .footer .social {
+        float: right;
+        font-size: 2.5rem;
+        margin-right: 6%;
+    }
+
+    .footer .instagram {
+        float: right;
+        font-size: 2.5rem;
+        margin-right: 3%;
+    }
+    
+    .footer .school {
+        float: right;
+        font-size: 2.5rem;
+        margin-right: 3%;
+    }
+    
+    .footer .football {
+        float: right;
+        font-size: 2.5rem;
+        margin-right: 3%;
+    }
+}

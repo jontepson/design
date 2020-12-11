@@ -53,5 +53,10 @@ h6 {
 @media (max-width: 600px) {
     html {
         background-repeat: repeat;
+        background-image: none;
+    }
+    
+    body {
+        width: 100%;
     }
 }

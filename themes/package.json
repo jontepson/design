@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "watch": "sass jonatan2/scss/style.scss:jonatan2/css/style.css jonatan2/scss/style-light.scss:jonatan2/css/style-light.css --no-source-map --watch",
-    "watch-min": "sass jonatan2/scss/style.scss:jonatan2/css/style.min.css jonatan2/scss/style-light.scss:jonatan2/css/style-light.min.css --no-source-map --watch --style compressed",
+    "watch": "sass jonatan2/scss/style.scss:jonatan2/css/style.css jonatan2/scss/style-dark.scss:jonatan2/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass jonatan2/scss/style.scss:jonatan2/css/style.min.css jonatan2/scss/style-dark.scss:jonatan2/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style": "npm run style-dark && npm run style-light",
     "style-min": "npm run style-dark-min && npm run style-light-min",
     "style-dark": "sass jonatan2/scss/style-dark.scss jonatan2/css/style-dark.css --no-source-map",
