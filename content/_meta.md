@@ -5,6 +5,12 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/jontepson/
       icon: fab fa-github
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash
 Instagram:
     - title: Link till instagram
       url: https://www.instagram.com/vislandaskolif/

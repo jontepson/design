@@ -1,11 +1,11 @@
 ---
 Title: Home
 Description: This is the report page for kmom01
+Template: kmom
 ---
-Redovisningssida för design
+Redovisningssida för design KMOM01
 ==================
 
-* [kmom01](report/kmom01)
 
 Jag har aldrig jobbat med några ramverk eller CMS innan så det var väldigt mycket nytt att försöka greppa. Behövde läsa en del för att fatta vad jag gjorde och vad jag skulle försöka göra. Kändes som det var väldigt mycket olika tekniker som kom in direkt och många olika sätt att jobba på med de olika. Är inte bekant med någon av de här teknikerna eller verktygen innan. 
 

@@ -1,8 +1,9 @@
 ---
 Title: Home
 Description: This is the report page for kmom02
+Template: kmom
 ---
-Redovisningssida för design kmom02
+Redovisningssida för design KMOM02
 ==================
 
 Vet inte riktigt vad jag tycker om SASS än, verkar bra men behöver nog jobba mer med det för att få en riktigt bra bild av vad men mer kan göra med det än vanlig CSS. 
