@@ -54,7 +54,10 @@
             <a href="{{ base_url}}/image/{{ image.url }}" target="_blank">
             <div>
             <picture>
-            <source media="(min-width: 1000px)" srcset="image/{{ image.url }}&w=350">
+            <source media="(min-width: 1600px)" srcset="image/{{ image.url }}&w=350">
+            <source media="(min-width: 1300px)" srcset="image/{{ image.url }}&w=240">
+            <source media="(min-width: 1150px)" srcset="image/{{ image.url }}&w=220">
+            <source media="(min-width: 1000px)" srcset="image/{{ image.url }}&w=190">
             <source media="(min-width: 768px)" srcset="image/{{ image.url }}&w=210">
             <source media="(min-width: 375px)" srcset="image/{{ image.url }}&w=250">
             <img src="image/{{ image.url }}&w=250" alt="{{ image.alt }}">
