@@ -30,3 +30,19 @@ Analysis
 <i class="far fa-arrow-alt-circle-right"></i>
 </a>
 </figure>
+
+<figure class="kmom-box project">
+<h2 class="reportsheadline">Analys 4</h2>
+<em><strong>Webbplatsdesign</strong></em>
+<a class="arrowreportlink" href="analysis/10_webbplatsdesign" aria-label="logo">
+<i class="far fa-arrow-alt-circle-right"></i>
+</a>
+</figure>
+
+<figure class="kmom-box project">
+<h2 class="reportsheadline">Analys 5</h2>
+<em><strong>Design och webbplatser</strong></em>
+<a class="arrowreportlink" href="analysis/11_design-och-webbplatser" aria-label="logo">
+<i class="far fa-arrow-alt-circle-right"></i>
+</a>
+</figure>
